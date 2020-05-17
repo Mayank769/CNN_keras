@@ -1,0 +1,30 @@
+Till now,Studied different model /algorithms of machine learning.
+
+First one is Linear Regression:
+	This algorithm is one of the easy algorithm of the machine learning which is used to predict some values
+	based on some given values(which are known as features).This model is used for prediction of values.
+Second one is Logistic Regression:
+	This is an classification algorithm which can be use to classify whether the given value belongs to 
+	particular class or not.It is a linear classification of data.It cannot classify data which are not 
+	linearly separable.
+Third one is Support Vector Machine(SVM):
+	This is also an classification algorithm which can be use to classify multiple classes,but all classes
+	should be linearly separable.And it is best suited when number of features are more than number of samples.
+	If number of samples are large then this algorithm is not best. 
+Fourth one is Artificial Neural Network:
+	This is also an classification algorithm which can easily classify all type of data.But its 
+	computational time is more than logistic regression,and SVM.
+Fifth One is Convolutional Neural Network:
+	This is also a classification algorithm which is used for image processing ,it can easily classify
+	the images.Computation takes a lot of time.
+Sixth One is Random Forest Classifier:
+	This is also an classification algorithm which is used to interpret the data using some features
+	and give the final class.It is an ensemble bagging approach which uses more than 1 Decision
+	tree classifier to interpret the model.
+Final Observation is:
+If u r going for normal prediction ,then linear regression is best.
+If classification of normal data ,and number of features are more than sample size then SVM,
+				and not wanted good accuracy and less computation time and data is linearly separable then Logistic regression
+				and wanted good accuracy ,no matter what kind of data is,then ANN
+				and also can use Random forest classifier 
+If classification of image ,then use CNN.
